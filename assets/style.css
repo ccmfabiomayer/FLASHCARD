@@ -1,7 +1,7 @@
 :root {
-    --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --text-color: #ffffff;
+    --card-front-color: #000000;
+    --card-back-color: #f40000;
 }
 
 body {
@@ -10,7 +10,10 @@ body {
 }
 
 #container {
-    display: flex;
+    display: flex;            
+    flex-wrap: wrap;
+    justify-content: space-around; 
+
 }
 
 .cartao {
@@ -46,6 +49,7 @@ cartao__conteudo {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
+    font-size: 1.4vw;
 }
 
 .cartao__conteudo__pergunta p {
