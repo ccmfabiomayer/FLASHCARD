@@ -25,5 +25,7 @@ cartao.innerHTML = `
 }
 
 cartao.addEventListener('click', viraCartao)
+
+
 container.appendChild(cartao)
 }
